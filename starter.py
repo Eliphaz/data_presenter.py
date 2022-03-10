@@ -74,7 +74,7 @@ changeMyMind = True
 
 if changeMyMind:
     changeMyMind = False
-elif not changeMyMind:
+elif changeMyMind == False:
     changeMyMind = True
 
 # ADVANCED
